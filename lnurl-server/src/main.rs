@@ -26,7 +26,7 @@ struct AppState {
 const REQUESTCHANNELTAG: &str = "channelRequest";
 const WITHDRAWCHANNELTAG: &str = "withdrawRequest";
 const DEFAULT_DESCRIPTION: &str = "Withdrawal from service";
-const IP_ADDRESS: &str = "127.0.0.1:49735";
+const IP_ADDRESS: &str = "82.67.177.113:9735";
 const CALLBACK_URL: &str = "http://82.67.177.113:3001/";
 
 static NODE_URI: OnceLock<String> = OnceLock::new();
